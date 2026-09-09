@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    body{                                                          
+    background-color: rgba(185, 220, 185, 0.779);
+    
+}
+
+h1{
+      position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  filter: blur(5px);
+}
+header{ 
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.713);
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  border-radius: 20px;
+  backdrop-filter: blur(1px
+  );
+}
+.banner {
+    aspect-ratio: 21/9;
+}
+img { width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Products {
+    display: flex;
+     justify-content:center ;
+     gap: 80px;
+     padding: 80px 0px;
+     border: 30px white;
+}
+
+.card {
+padding: 20px;
+border-radius: 10px;
+background-color: azure;
+box-shadow: 4px 6px 30px black;
+display: flex;
+}
+footer {
+    height: 120px;
+    background-color: rgba(185, 220, 185, 0.779);
+}
+.Container {
+    max-width: 300px;
+    width: 100%;
+    border: 1px black;
+    aspect-ratio: 16/9;
+    border-radius: 6px;
+    overflow: hidden;
+}
+main{ display: flex;
+justify-content: center;}
+button {
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+}
+form{display:flex ;
+    flex-direction: column;
+padding-top: 10px;
+justify-content: start;
+}
+td{
+    border-bottom: 1px solid black;
+    border-collapse:collapse;
+    flex-direction: column;
+     padding: 10px;
+}
+nav ul{
+    display: flex;
+    text-align: left;
+    list-style: none;
+    gap: 10px;
+    list-style: none;
+    
+}
+td a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.Blue:hover{
+    background-color: beige;
+}
+ul {
+    text-decoration: none;
+}
+</style>
+
+<head>
+    <body>
+        <h1>                                                <!--Überschrift-->
+         Book lovers
+        </h1>
+        <header>
+        <h2>
+        Bücher, für jeden!
+        </h2>
+        <nav>                                               <!--Navigation-->
+            <ul>
+                <li>
+                    <a href="Abaut.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">Books</a>
+                </li>
+                <li>
+                    <a href="Projekts.html">Projekts</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <p>
+           Hier findest du viele Bücher und wichtige Neuigkeiten!           <!--Informationen kurz zum Buch-->
+        </p>
+        <h2>
+            Bücher
+        </h2>
+        <p>
+            Harry Potter
+        </p>
+        <p>Eine wunderfolle Geschichte über einen kleinen Jungen der Zaubern lernt und neue Freunde findet</p>
+        <p>
+            Schule der magischen tiere
+        </p>
+        <p>
+            Ein Buch für Kinder, die tiere mögen und spannende abenteuer erleben wollen!
+        </p>
+          <link rel="stylesheet" href="View Projekt">
+          <table>                                           <!--Tabelle mit link (auf Buchtitel) und informationen-->
+            <tr>
+                <td>
+                    Buch Titel
+                </td>
+                <td>
+                    Autor
+                </td>
+                <td>
+                    Originalsprache
+                </td>
+            </tr>
+        <tr>
+          <td>
+            <div class="Blue">
+                <a href="https://de.wikipedia.org/wiki/Harry_Potter">Harry Potter</a>
+            </div>
+          </td>
+          <td>J.K.Rowling</td>
+          <td>Originalsprache: Englisch</td>
+        </tr>
+         <tr>
+          <td>
+            <div class="Blue"> 
+                <a href="https://de.wikipedia.org/wiki/Die_Schule_der_magischen_Tiere_(Film)#:~:text=Die%20Schule%20der%20magischen%20Tiere%20ist%20ein%20deutsch%2Dösterreichischer%20Spielfilm,denen%20nur%20sie%20sprechen%20können.">Schule der Magischen Tiere</a>
+            </div>
+          </td>
+          <td>Margit Auer</td>
+          <td>Originalsprache: Deutsch</td>
+        </tr>
+        </table>
+        <h2>
+            Autoren                             <!--Info mit Link über Autoren-->
+        </h2>
+        <ul class="Under_list">
+            <li>
+                <a href="https://de.wikipedia.org/wiki/Joanne_K._Rowling">J.K.Rowling</a>
+            </li>
+            <li>
+                <a href="https://de.wikipedia.org/wiki/Margit_Auer">Margit Auer</a>
+            </li>
+        </ul>
+        <h2>
+            Über uns:
+        </h2>
+        <p>
+            Herzlich Wilkommen in unserem Buchladen,Hier kannst du eine große auswahl an Bücheern für jedes Genre finden. 
+        </p>
+                <main id="#Produkts">
+        <section class="Produkts">
+            <article class="cards">
+                <div class="Container">
+                    <img src="Kinderbücher.jpg">
+                </div>
+                <h2>
+                    Kinderbücher
+                </h2>
+                <p>
+                    Ideal Für kleine Leseanfänger!
+                </p>
+                <button>
+                    Kaufen
+                </button>
+            </article>
+        </section>
+        <section class="banner">
+                       <article class="cards">
+                <div class="Container">
+                    <img src="Krimis.jpg">
+                </div>
+                <h2>
+                    Krimis 
+                </h2>
+                <p>
+                    Perfekt für menschen die sich gerne kruseln!
+                </p>
+                <button>
+                    Kaufen
+                </button>
+            </article>
+            </section>
+            <section class="banner">
+                       <article class="cards">
+                <div class="Container">
+                    <img src="Romane.jpg">
+                </div>
+                <h2>
+                    Romane
+                </h2>
+                <p>
+                    Eins a um aus der Realität zu flüchten!
+                </p>
+                <button>
+                    Kaufen
+                </button>
+            </article>
+        </section>
+    </main>
+        <h3>
+            Schreibe uns eine Message 
+        </h3>
+        <form>                                          <!--Felder zum Namen einfügen usw.-->
+        <label>Name</label>
+        <input placeholder="Name" />
+        <label>Email</label>
+        <input placeholder="Email">
+        <label>Message</label>
+        <textarea placeholder="Sende uns eine Nachricht"></textarea>
+      </form>
+      <footer>
+        <p>
+            halllo
+        </p>
+      </footer>
+    </body>
+</head>
+</html>

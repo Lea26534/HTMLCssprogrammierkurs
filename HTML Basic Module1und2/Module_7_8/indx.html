@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  background-color: rgb(136, 135, 135);
+  margin: 0;
+  padding: 0;
+}
+ 
+header {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.713);
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+ 
+.logo {
+  height: 80px;
+  width: auto
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+ 
+nav a {
+  text-decoration: none;
+  color: rgb(93, 93, 93);
+}
+ 
+nav a:hover {
+  color: black;
+}
+ 
+.banner img {
+  width: 100%;
+  height: auto;
+}
+ 
+h1 {
+  margin: 0;
+  margin-top: 20px;
+  color: white;
+  border-radius: 20px;
+}
+ 
+p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+ 
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+    .click-me {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 20px 40px;
+  font-size: 20px;
+  border: none;
+}
+ 
+ul {
+  margin: 20px 10px;
+  color: azure;
+  border-radius: 20px;
+}
+h2{ color: azure;}
+</style>
+</head>
+  <body>
+    <header>
+      <img src="Computer.jpg" class="logo" />
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Kinos</a>
+          </li>
+          <li>
+            <a href="#">Filme</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+ 
+    <main>
+      <section class="banner">
+        <div class="welcome-text">
+          <h1>Meine Lieblings Filme</h1>
+          <p>Willkomen auf der Webiste</p>
+          <button class="click-me">Ad a Movie</button>
+        </div>
+        <img src="Trampolin.jpg" />
+      </section>
+    </main>
+ 
+    <footer></footer>
+    <section>
+        <h2>Meine Lieblings Filme</h2>
+        <ul>
+            <li>
+                Harry Potter
+            </li>
+            <li>
+                Fluch der Caribik
+            </li>
+            <li>
+                Matilda
+            </li>
+            <li>
+                Kevin allein zu Haus
+            </li>
+            <li>
+                Alles steht Kopf 
+            </li>
+        </ul>
+    </section>
+  </body>
+</html>
